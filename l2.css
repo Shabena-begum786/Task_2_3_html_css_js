@@ -75,6 +75,25 @@ form {
   border-radius:8px;
   box-shadow:0 0 10px rgba(0,0,0,0.1);}
 
+form h2{
+  text-align:center
+}
+
+form input{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  
+}
+
+.gender{
+  margin:10px 0
+}
+
+.navigation{
+  text-align: center;
+}
+
 button {
   padding:10px 20px;
   border:none;
@@ -84,6 +103,9 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background: #5a3f0a;
+}
 
 footer {
   background:rgba(0, 0, 0, 0.9);
